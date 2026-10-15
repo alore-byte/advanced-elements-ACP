@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <style>
+        input[type='email'] {
+            border: 5px green solid;
+        }
+
+        input[type='text'] {
+            border: 5px red solid;
+        }
+
+        ul>li {
+            color: red;
+        }
+
+        a+p {
+            color: red;
+            font-size: 30px;
+        }
+
+        a:hover {
+            color: yellow;
+        }
+
+        li:nth-child(2) {
+            background-color: bisque;
+        }
+
+        p:not (#i1) {
+            border: 5px blue dotted;
+        }
+
+        p::before {
+            content: "hey";
+        }
+
+        p::after {
+            content: "bye";
+        }
+
+        p::first-letter {
+            font-size: 50;
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">click here</a>
+    <p id="i3">hey</p>
+    <h5 id="i4">do you like ice create?</h5>
+    <p id="i1">what flavors do you like?</p>
+    <p id="i2">come in lets enjoy</p>
+    <ul>
+        <li>strawberry</li>
+        <li>vannila</li>
+        <li>choc</li>
+        <li>mint</li>
+
+    </ul>
+    <form>
+        Name/type: <input type="text"><br><br>
+        price: <input type="number"><br><br>
+        email: <input type="email">
+    </form>
+</body>
+
+</html>
